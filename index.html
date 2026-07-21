@@ -123,17 +123,20 @@
 
 <section>
   <h2>Automation</h2>
-  <p class="sechint">Python tools that remove manual, repetitive work.</p>
+  <p class="sechint">Systems that remove manual, repetitive work.</p>
   <div class="grid">
 
     <article class="card">
-      <h3>Microsoft Rewards Automation Platform</h3>
-      <p>Multi-account browser automation processing accounts at scale: login and cookie
-         handling, proxy rotation and validation, automatic browser-profile generation,
-         retry logic, and account state detection (locked, suspended, unusual activity)
-         with per-status reporting that replaced manual triage entirely.</p>
-      <div class="stack"><span>Python</span><span>Playwright</span><span>undetected-chromedriver</span><span>Requests</span></div>
-      <p class="note">Private — architecture and screenshots available on request.</p>
+      <h3>Distributed Web Automation Platform</h3>
+         <p>A TypeScript platform running long-lived automation workloads across thousands of
+         accounts and multiple machines. Two interchangeable transports — a direct HTTP client
+         and a Playwright browser — share one task pipeline; the HTTP path cut CPU and memory
+         cost by roughly an order of magnitude. A WebSocket agent fleet reports to an Express
+         control-plane dashboard with JWT auth, promise-based RPC to remote machines, work
+         distribution and live resource telemetry.</p>
+      <div class="stack"><span>TypeScript</span><span>Node.js</span><span>Playwright</span><span>WebSocket</span><span>Express</span><span>Docker</span></div>
+      <div class="cta"><a href="https://github.com/Girgis2005/distributed-web-automation">Architecture write-up →</a></div>
+      <p class="note">Source private — architecture documented in full.</p>
     </article>
 
     <article class="card">
