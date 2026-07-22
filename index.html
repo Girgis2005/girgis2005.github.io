@@ -46,6 +46,8 @@
     padding:18px 18px 16px;display:flex;flex-direction:column}
   .card h3{margin:0 0 7px;font-size:17px;letter-spacing:-.01em}
   .card p{margin:0 0 13px;font-size:14.5px;color:var(--muted);flex:1}
+  .shot{width:100%;border-radius:9px;border:1px solid var(--line);margin-bottom:13px;
+    aspect-ratio:16/10;object-fit:cover;object-position:top;background:var(--chip);display:block}
   .stack{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:13px}
   .stack span{background:var(--chip);color:var(--chipfg);font-size:11.5px;
     padding:3px 9px;border-radius:5px;font-weight:600;letter-spacing:.01em}
@@ -86,6 +88,7 @@
   <div class="grid">
 
     <article class="card">
+      <img class="shot" src="img/apps/luflow.png" alt="Lu Flow gameplay" loading="lazy">
       <h3>Lu Flow</h3>
       <p>Connect-the-dots colour puzzle game. Live in production and actively maintained,
          including a full migration of the monetization stack from AdMob to Unity Ads
@@ -98,6 +101,7 @@
     </article>
 
     <article class="card">
+      <img class="shot" src="img/apps/lupeek.png" alt="Lu Peek gameplay" loading="lazy">
       <h3>Lu Peek — Kids Learn ABC</h3>
       <p>Children's learning game covering letters, numbers and shapes through shadow and
          shape matching. Shipped through multiple production updates.</p>
@@ -109,6 +113,7 @@
     </article>
 
     <article class="card">
+      <img class="shot" src="img/apps/luaqua.png" alt="Lu Aqua hydration tracker" loading="lazy">
       <h3>Lu Aqua</h3>
       <p>Offline-first hydration tracker. All data stored locally in SQLite, with scheduled
          reminders and Android home-screen widgets. Works with no network at all.</p>
