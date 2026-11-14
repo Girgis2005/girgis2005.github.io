@@ -24,7 +24,7 @@
 <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
 <!-- seo:end -->
 <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
-<script>/* pre-paint: theme + language before first frame (no flash) */(function(){try{var d=document.documentElement,q=new URLSearchParams(location.search).get('lang'),l=q||localStorage.getItem('lang'),t=localStorage.getItem('theme');if(t==='light')d.dataset.theme='light';if(l&&/^(pt|ar)/i.test(l)){d.classList.add('i18n-pending');if(/^ar/i.test(l)){d.lang='ar';d.dir='rtl'}else d.lang='pt-BR'}}catch(e){}})();</script>
+<script>/* pre-paint: theme + language before first frame (no flash) */(function(){try{var d=document.documentElement,q=new URLSearchParams(location.search).get('lang'),l=q||localStorage.getItem('lang')||(navigator.languages||[navigator.language]).find(function(x){return/^(en|pt|ar)/i.test(x)}),t=localStorage.getItem('theme'),h=new Date().getHours();if(t==='light'||(!t&&h>=7&&h<19))d.dataset.theme='light';if(l&&/^(pt|ar)/i.test(l)){d.classList.add('i18n-pending');if(/^ar/i.test(l)){d.lang='ar';d.dir='rtl'}else d.lang='pt-BR'}}catch(e){}})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Cairo:wght@400;500;600;700&display=swap">

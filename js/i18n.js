@@ -111,9 +111,13 @@ export async function setLang(lang, { persist = true } = {}) {
   document.dispatchEvent(new CustomEvent('langchange', { detail: { lang } }));
 }
 
-/** Initial language: ?lang= (shareable links) → saved choice → English. */
+/** The first device/browser language we support (e.g. ['fr-FR','pt-BR'] → 'pt-BR'). */
+const deviceLang = () => (navigator.languages?.length ? navigator.languages : [navigator.language]).map(normalize).find(Boolean);
+
+/** Initial language: ?lang= (shareable links) → saved choice → device language → English.
+ *  A device-detected language is not saved, so the site keeps following the device until the visitor picks one. */
 export function initI18n() {
   const fromUrl = normalize(new URLSearchParams(location.search).get('lang'));
-  const initial = fromUrl || normalize(store.get('lang')) || DEFAULT_LANG;
+  const initial = fromUrl || normalize(store.get('lang')) || deviceLang() || DEFAULT_LANG;
   return setLang(initial, { persist: !!fromUrl || !!store.get('lang') });
 }
