@@ -26,6 +26,8 @@ export const site = {
   // Chat assistant: URL of the deployed Cloudflare Worker (see worker/README.md).
   // Empty = the chat bubble is not shown at all.
   chatEndpoint: '',
+  // Worker route that forwards each contact-form message to WhatsApp (CallMeBot). Empty = email only.
+  notifyEndpoint: '',
 };
 
 // Main navigation, in order. `key` = i18n key, `page` = <body data-page>.

@@ -19,7 +19,7 @@ await initI18n();
 // Page-specific modules (added in later phases) are loaded only where needed.
 const page = document.body.dataset.page;
 const pageModules = {
-  home: () => Promise.all([import('./projects.js'), import('./hero.js')]),
+  home: () => Promise.all([import('./projects.js'), import('./hero.js'), import('./pick.js')]),
   projects: () => import('./projects.js'),
   skills: () => import('./content.js'),
   services: () => import('./content.js'),

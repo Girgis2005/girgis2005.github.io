@@ -76,6 +76,13 @@ async function onSubmit(e) {
   const label = btn.querySelector('span');
   btn.disabled = true;
   label.textContent = t('contact.form.sending');
+  // WhatsApp alert to the owner, in parallel with the email. Best effort: it never changes what the visitor sees.
+  if (site.notifyEndpoint) {
+    fetch(site.notifyEndpoint, {
+      method: 'POST', keepalive: true, headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: f.name.value.trim(), email: f.email.value.trim(), type: typeLabel(), budget: f.budget.value || '', message: f.message.value.trim(), lang: document.documentElement.lang }),
+    }).catch(() => {});
+  }
   try {
     // FormData = a "simple" CORS request (no preflight), which Web3Forms accepts from any page.
     const data = new FormData();

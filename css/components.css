@@ -75,6 +75,25 @@
 .icon-btn:hover { color: var(--text); border-color: var(--line-strong); background: var(--surface); }
 .icon-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .icon-btn svg { inline-size: 16px; block-size: 16px; }
+/* Choice menu under a button ("Let's work together" → WhatsApp · Email · Form). Shares the look of the theme menu. */
+.pick { position: relative; display: inline-flex; }
+.pick__menu {
+  position: absolute; inset-block-start: calc(100% + 8px); inset-inline-start: 0; z-index: 40;
+  min-inline-size: 270px; padding: 6px; display: grid; gap: 2px; scroll-margin-block-end: 16px;
+  background: var(--bg-raised); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-2);
+}
+.pick__menu a {
+  display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 10px;
+  color: var(--text); text-decoration: none; font: 500 15px/1.3 var(--font-sans);
+  transition: background var(--dur-1);
+}
+.pick__menu a > span { display: grid; gap: 2px; min-inline-size: 0; }
+.pick__menu small { font-size: 12.5px; font-weight: 400; color: var(--text-3); overflow-wrap: anywhere; }
+.pick__menu svg { inline-size: 18px; block-size: 18px; flex: none; color: var(--text-2); }
+.pick__menu .pick__wa { color: #25d366; }
+.pick__menu a:hover { background: var(--surface); }
+.pick__menu a:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
 /* WhatsApp app choice (Android): bottom sheet */
 .wa-sheet {
   margin: auto auto 0; inline-size: min(100% - 24px, 420px); max-inline-size: none; padding: 10px;

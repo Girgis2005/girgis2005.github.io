@@ -39,6 +39,8 @@
 }
 .quick a:hover { color: var(--text); border-color: var(--line-strong); background: var(--surface); }
 .quick svg { inline-size: 17px; block-size: 17px; }
+.quick svg.brand { inline-size: 18px; block-size: 18px; transition: transform var(--dur-1); } /* real brand logos, in their own colours */
+.quick a:hover svg.brand { transform: scale(1.08); }
 
 /* Split hero: profile on one side, rotating headline on the other (mirrors in RTL) */
 .hero--split { text-align: start; }

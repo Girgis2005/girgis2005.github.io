@@ -2,6 +2,15 @@
   "site": {
     "name": "Girgis Adel"
   },
+  "pick": {
+    "label": "How would you like to reach me?",
+    "wa": "WhatsApp",
+    "waHint": "Usually the fastest reply",
+    "email": "Email",
+    "form": "Contact form",
+    "formHint": "Tell me about your project",
+    "mailSubject": "Project inquiry from your website"
+  },
   "wa": {
     "prefill": "Hi Girgis, I found you through your website and I'd like to talk about a project: ",
     "openIn": "Open in",

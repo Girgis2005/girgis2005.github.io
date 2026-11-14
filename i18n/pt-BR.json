@@ -1,4 +1,13 @@
 {
+  "pick": {
+    "label": "Como você prefere falar comigo?",
+    "wa": "WhatsApp",
+    "waHint": "Normalmente a resposta mais rápida",
+    "email": "E‑mail",
+    "form": "Formulário de contato",
+    "formHint": "Conte sobre o seu projeto",
+    "mailSubject": "Contato pelo seu site sobre um projeto"
+  },
   "wa": {
     "prefill": "Olá, Girgis! Vi o seu site e gostaria de conversar sobre um projeto: ",
     "openIn": "Abrir no",
