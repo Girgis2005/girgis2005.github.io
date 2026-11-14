@@ -28,5 +28,8 @@ const pageModules = {
 };
 pageModules[page]?.().then((mods) => [].concat(mods).forEach((m) => m.init?.())).catch((e) => console.error('page module failed', e));
 
+// Android: let visitors choose WhatsApp or WhatsApp Business for every wa.me link
+import('./wa-choice.js').then((m) => m.init()).catch((e) => console.error('wa-choice failed', e));
+
 // Chat assistant: every page, but only when configured (data/site.js → chatEndpoint).
 import('./chat.js').then((m) => m.init()).catch((e) => console.error('chat failed', e));

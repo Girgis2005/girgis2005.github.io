@@ -2,6 +2,12 @@
   "site": {
     "name": "Girgis Adel"
   },
+  "wa": {
+    "openIn": "Open in",
+    "app": "WhatsApp",
+    "business": "WhatsApp Business",
+    "cancel": "Cancel"
+  },
   "nav": {
     "label": "Main",
     "homeLabel": "Girgis Adel, home",

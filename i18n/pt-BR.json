@@ -1,4 +1,10 @@
 {
+  "wa": {
+    "openIn": "Abrir no",
+    "app": "WhatsApp",
+    "business": "WhatsApp Business",
+    "cancel": "Cancelar"
+  },
   "site": {
     "name": "Girgis Adel"
   },
