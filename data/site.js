@@ -27,7 +27,7 @@ export const site = {
   // Empty = the chat bubble is not shown at all.
   chatEndpoint: '',
   // Worker route that forwards each contact-form message to WhatsApp (CallMeBot). Empty = email only.
-  notifyEndpoint: '',
+  notifyEndpoint: 'https://girgis-chat.girgis-chat-worker.workers.dev/notify',
 };
 
 // Main navigation, in order. `key` = i18n key, `page` = <body data-page>.

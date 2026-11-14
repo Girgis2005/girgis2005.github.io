@@ -437,7 +437,7 @@
     },
     "form": {
       "title": "O formulário de contato",
-      "p1": "Quando você envia o formulário, seu nome, e‑mail, tipo de projeto, orçamento e mensagem chegam ao meu e‑mail pelo Web3Forms, um serviço de entrega de formulários. Se o formulário não estiver disponível, o seu próprio app de e‑mail envia a mensagem.",
+      "p1": "Quando você envia o formulário, seu nome, e‑mail, tipo de projeto, orçamento e mensagem chegam ao meu e‑mail pelo Web3Forms, um serviço de entrega de formulários, e uma cópia chega ao meu WhatsApp pelo CallMeBot, um serviço de notificações. Se o formulário não estiver disponível, o seu próprio app de e‑mail envia a mensagem.",
       "p2": "Uso esses dados apenas para responder a você. Não vendo nem compartilho esses dados, e apago conversas que não seguem adiante."
     },
     "chat": {

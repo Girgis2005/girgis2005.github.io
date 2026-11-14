@@ -437,7 +437,7 @@
     },
     "form": {
       "title": "The contact form",
-      "p1": "When you send the form, your name, email, project type, budget and message are delivered to my email through Web3Forms, a form-delivery service. If the form is not available, your own email app sends the message instead.",
+      "p1": "When you send the form, your name, email, project type, budget and message are delivered to my email through Web3Forms, a form-delivery service, and a copy reaches my own WhatsApp through CallMeBot, a notification service. If the form is not available, your own email app sends the message instead.",
       "p2": "I use these details only to reply to you. I don't sell or share them, and I delete conversations that don't lead anywhere."
     },
     "chat": {
