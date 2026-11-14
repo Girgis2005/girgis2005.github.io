@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Layout — container, sections, page header.
+   ========================================================================== */
+
+.container { inline-size: min(100% - 2 * var(--gutter), var(--container)); margin-inline: auto; }
+.container--narrow { inline-size: min(100% - 2 * var(--gutter), var(--container-narrow)); margin-inline: auto; }
+
+.section { padding-block: var(--section-gap); }
+.section + .section { padding-block-start: 0; }
+
+.section-head { display: flex; align-items: end; justify-content: space-between; gap: var(--s-5); margin-block-end: var(--s-7); }
+.section-head h2 { font-size: var(--fs-xl); letter-spacing: var(--track-display); }
+.section-head p { margin-block-start: var(--s-3); color: var(--text-2); max-inline-size: 52ch; }
+
+/* Inner pages: title + one-line lead, with the same faint glow as the hero */
+.page-head {
+  position: relative; isolation: isolate; overflow-x: clip; /* glow may bleed up/down, never sideways */
+  padding-block: clamp(3.5rem, 2.5rem + 4vw, 6rem) clamp(2rem, 1.5rem + 2vw, 3.5rem);
+}
+.page-head::before {
+  content: ""; position: absolute; inset: -60% -20% auto; block-size: 520px; z-index: -1; pointer-events: none;
+  background: radial-gradient(40% 50% at 30% 40%, var(--accent-glow), transparent 70%);
+}
+[dir="rtl"] .page-head::before { background: radial-gradient(40% 50% at 70% 40%, var(--accent-glow), transparent 70%); }
+.page-head h1 { font-size: var(--fs-2xl); line-height: var(--lh-tight); letter-spacing: var(--track-display); max-inline-size: 18ch; }
+.page-head .lead { margin-block-start: var(--s-4); }
+
+.lead { font-size: var(--fs-md); color: var(--text-2); max-inline-size: 56ch; }
+
+/* Placeholder block for sections that later phases fill in (never shipped) */
+.todo {
+  border: 1px dashed var(--line-strong); border-radius: var(--r-lg);
+  padding: var(--s-6); color: var(--text-3); font-size: var(--fs-sm);
+}
+
+@media (max-width: 560px) {
+  .section-head { flex-direction: column; align-items: start; }
+}

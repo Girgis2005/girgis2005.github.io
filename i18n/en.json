@@ -1,0 +1,449 @@
+{
+  "site": {
+    "name": "Girgis Adel"
+  },
+  "nav": {
+    "label": "Main",
+    "homeLabel": "Girgis Adel, home",
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About",
+    "skills": "Skills",
+    "resume": "Resume",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "cta": "Let's talk",
+    "language": "Language",
+    "theme": "Light theme",
+    "menu": "Menu"
+  },
+  "common": {
+    "skip": "Skip to content",
+    "available": "Available for new projects",
+    "location": "São Paulo, Brazil · Remote",
+    "email": "Email"
+  },
+  "footer": {
+    "tagline": "Websites, apps and automations for real problems, built and shipped.",
+    "pages": "Pages",
+    "elsewhere": "Elsewhere"
+  },
+  "meta": {
+    "home": {
+      "title": "Girgis Adel · Websites, apps & automation",
+      "description": "Egyptian developer in São Paulo. Business automation, web platforms and Android apps, built for real problems, published and maintained."
+    },
+    "about": {
+      "title": "About · Girgis Adel",
+      "description": "From Egypt to São Paulo: the story behind the work, and how I build."
+    },
+    "projects": {
+      "title": "Projects · Girgis Adel",
+      "description": "Apps on Google Play, websites for real clients and the automation tools I use myself."
+    },
+    "project": {
+      "title": "Project · Girgis Adel",
+      "description": "Case study: the problem, the approach, the hard part and the result."
+    },
+    "skills": {
+      "title": "Skills · Girgis Adel",
+      "description": "The tools I ship with: automation, mobile, web and AI integration."
+    },
+    "services": {
+      "title": "Services · Girgis Adel",
+      "description": "Business automation, mobile apps, websites and online stores, chatbots and WhatsApp bots."
+    },
+    "resume": {
+      "title": "Resume · Girgis Adel",
+      "description": "Experience, skills and selected projects. Download the CV in English, Portuguese or Arabic."
+    },
+    "contact": {
+      "title": "Contact · Girgis Adel",
+      "description": "Tell me what you need. I reply on WhatsApp or email."
+    },
+    "privacy": {
+      "title": "Privacy · Girgis Adel",
+      "description": "What this site collects, and why."
+    },
+    "notfound": {
+      "title": "Page not found · Girgis Adel",
+      "description": "This page doesn't exist."
+    }
+  },
+  "home": {
+    "hero": {
+      "photoAlt": "Photo of Girgis Adel",
+      "role": "Software Developer & Digital Solutions",
+      "titlePlain": "Websites, apps and automations that do the work for you.",
+      "rotate": {
+        "b": "Websites, apps and automations <em>that do the work for you.</em>",
+        "c": "I turn manual work into <em>software that runs itself.</em>",
+        "a": "I build the tools I wish existed, <em>then I ship them.</em>"
+      },
+      "lead": "Egyptian developer in São Paulo. Business automation, web platforms and Android apps, built for real problems, published and maintained.",
+      "cta1": "Let's work together",
+      "cta2": "View my work",
+      "links": "Contact links"
+    },
+    "work": {
+      "title": "Selected work",
+      "sub": "Every project started as a real problem, mine or a client's, and ended up shipped.",
+      "all": "All projects"
+    },
+    "play": {
+      "title": "Live on Google Play",
+      "sub": "Four apps I designed, built and published myself, and keep updating.",
+      "all": "Developer page"
+    },
+    "services": {
+      "title": "What I can build for you",
+      "sub": "Four kinds of work, one person from the first message to launch.",
+      "all": "All services",
+      "proof": "Built:",
+      "s1": {
+        "title": "Business automation",
+        "text": "Scripts and bots that take repetitive web and data work off your hands, run on a schedule, and alert you when a person is needed.",
+        "proof": "Appointment watcher"
+      },
+      "s2": {
+        "title": "Mobile apps",
+        "text": "Android apps in Flutter, from the idea to a published Google Play listing, then updates and store-policy fixes after launch."
+      },
+      "s3": {
+        "title": "Websites & online stores",
+        "text": "Bilingual websites, stores and admin panels that a small business can run day to day, in Arabic and English.",
+        "proof": "House of Amría"
+      },
+      "s4": {
+        "title": "Chatbots & WhatsApp bots",
+        "text": "Bots that answer your customers, show your catalog and take orders, with a dashboard so you stay in control.",
+        "proof": "WhatsApp store bot"
+      }
+    },
+    "story": {
+      "title": "It always starts with a real problem",
+      "sub": "Most of what I build began as something I, or a client, needed fixed.",
+      "all": "Read my story",
+      "r1": {
+        "problem": "I moved to Brazil and needed Portuguese.",
+        "built": "Lu Lingo and Gesr"
+      },
+      "r2": {
+        "problem": "Consulate and immigration appointments that never seemed to open.",
+        "built": "An appointment watcher"
+      },
+      "r3": {
+        "problem": "A clothing shop drowning in WhatsApp messages.",
+        "built": "A WhatsApp store bot"
+      },
+      "r4": {
+        "problem": "An embroidery workshop running on a paper notebook.",
+        "built": "StitchHub, web and Android"
+      },
+      "r5": {
+        "problem": "A cotton textiles brand that needed a real online store.",
+        "built": "House of Amría"
+      }
+    }
+  },
+  "status": {
+    "play": "On Google Play",
+    "live": "Live",
+    "delivered": "Delivered",
+    "testing": "In testing",
+    "internal": "Internal tool",
+    "building": "In development",
+    "unreleased": "Not released"
+  },
+  "cta": {
+    "title": "Doing something by hand that a machine should do?",
+    "text": "Tell me what it is. Write to me on WhatsApp or email, in English, Portuguese or Arabic.",
+    "whatsapp": "Message me on WhatsApp",
+    "email": "Send an email"
+  },
+  "about": {
+    "story": {
+      "title": "I build the tools I wish existed, <em>then I ship them.</em>",
+      "p1": "I'm Girgis, a self-taught developer from Egypt, now based in São Paulo. I started the way many developers do: with a problem I wanted gone and nobody to build the fix for me. So I learned to build it myself.",
+      "p2": "That became a habit. Find a slow, manual job and replace it with something that runs on its own. Since 2021 the habit has grown into web automation, systems built for real businesses, and Android apps that are live on Google Play.",
+      "p3": "Moving to Brazil brought new problems to solve. I needed Portuguese, so I built Lu Lingo and Gesr. I needed consulate and immigration appointments that rarely opened, so I built watchers that told my phone the moment one did.",
+      "p4": "Today I build the same way for clients: start from the real problem, ship something that works, and keep it working."
+    },
+    "facts": {
+      "label": "Quick facts",
+      "basedT": "Based in",
+      "based": "São Paulo, Brazil",
+      "fromT": "From",
+      "from": "Egypt",
+      "workT": "Works",
+      "work": "Remote, independent",
+      "sinceT": "Building since"
+    },
+    "how": {
+      "title": "How I work",
+      "h1": {
+        "title": "Real problems first",
+        "text": "I start from the job that is slow or broken today, not from a technology I want to try."
+      },
+      "h2": {
+        "title": "Shipped, then maintained",
+        "text": "My apps get updates and store-policy fixes long after launch. Done means live, and still working."
+      },
+      "h3": {
+        "title": "Reviewed and tested",
+        "text": "I use modern tools, AI-assisted development included, and I review and test everything myself before it ships."
+      },
+      "h4": {
+        "title": "One person, the whole way",
+        "text": "Design, build, publishing and support, handled by one person who knows every part of the project."
+      }
+    },
+    "time": {
+      "title": "Timeline",
+      "now": "Now",
+      "t1": {
+        "title": "Automation, independently",
+        "text": "Started as an independent automation developer: browser automation and scripts that replace slow, manual web work."
+      },
+      "t2": {
+        "title": "Web platforms and mobile apps",
+        "text": "Began building complete systems for businesses (an online store, a workshop system, a WhatsApp bot) and my first Flutter apps."
+      },
+      "t3": {
+        "title": "A new life in Brazil",
+        "text": "Moved to Brazil, now based in São Paulo. Built Lu Lingo and Gesr while learning Portuguese, with four apps live on Google Play."
+      },
+      "t4": {
+        "title": "Open for new projects",
+        "text": "Taking on automation, app and web projects, working remotely from São Paulo."
+      }
+    },
+    "langs": {
+      "title": "Languages I work in",
+      "sub": "You can write to me in any of them.",
+      "ar": "Native",
+      "en": "Professional",
+      "pt": "Basic, learning every day"
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "About",
+      "lead": "From Egypt to São Paulo: how a habit of fixing my own problems became my work."
+    },
+    "projects": {
+      "title": "Projects",
+      "lead": "Apps on Google Play, websites for real clients and the automation tools I use myself. Every status is honest."
+    },
+    "project": {
+      "title": "Project",
+      "lead": "The problem, the approach, the hard part and the result."
+    },
+    "skills": {
+      "title": "Skills",
+      "lead": "The tools I actually ship with, grouped by the kind of work."
+    },
+    "services": {
+      "title": "Services",
+      "lead": "Four ways I can help, and what you get at the end of each."
+    },
+    "resume": {
+      "title": "Resume",
+      "lead": "Experience, skills and selected projects, with the CV in three languages."
+    },
+    "contact": {
+      "title": "Let's talk",
+      "lead": "Tell me what you need, and I'll reply on WhatsApp or email."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "lead": "What this site collects, and why. Short version: very little."
+    }
+  },
+  "notfound": {
+    "title": "This page doesn't exist",
+    "lead": "The link may be old or mistyped. Everything is still one click away.",
+    "home": "Go home",
+    "projects": "See projects"
+  },
+  "projects": {
+    "listLabel": "Project list",
+    "filterLabel": "Filter by type",
+    "filters": {
+      "all": "All",
+      "automation": "Automation",
+      "web": "Web",
+      "mobile": "Mobile",
+      "games": "Games",
+      "tools": "Tools"
+    },
+    "search": "Search projects",
+    "searchPlaceholder": "Search by name or technology",
+    "count": "{n} projects",
+    "empty": "No project matches that search.",
+    "reset": "Show all projects",
+    "countOne": "1 project"
+  },
+  "project": {
+    "back": "All projects",
+    "problem": "The problem",
+    "approach": "What I built",
+    "hard": "The hard part",
+    "result": "Result",
+    "stack": "Built with",
+    "gallery": "Screenshots",
+    "screenshotAlt": "{title}, screenshot {n}",
+    "links": {
+      "play": "Get it on Google Play",
+      "live": "Open the live site",
+      "github": "Source on GitHub",
+      "githubLaravel": "Source on GitHub (Laravel version)"
+    },
+    "prev": "Previous project",
+    "next": "Next project",
+    "more": "More projects",
+    "close": "Close",
+    "notFound": "Project not found",
+    "notFoundText": "This link doesn't point to a project. The full list is one click away."
+  },
+  "skills": {
+    "usedIn": "Used in:",
+    "languages": "Programming languages",
+    "languagesText": "The languages I write in day to day."
+  },
+  "services": {
+    "what": "What I do",
+    "who": "Who it's for",
+    "get": "What you get",
+    "proof": "Built:",
+    "cta": "Talk about this",
+    "process": {
+      "title": "How a project goes",
+      "sub": "Simple and in the open, from the first message to after launch.",
+      "p1": {
+        "title": "You tell me the problem",
+        "text": "On WhatsApp, email or the contact form, in English, Portuguese or Arabic. A short description is enough to start."
+      },
+      "p2": {
+        "title": "I propose a plan",
+        "text": "What I would build, what you get at the end, and the price and timing for your case, before any work starts."
+      },
+      "p3": {
+        "title": "I build in small steps",
+        "text": "You see working versions along the way and can change direction early, not at the end."
+      },
+      "p4": {
+        "title": "Launch, then support",
+        "text": "I deploy or publish it, hand over the code and instructions, and stay available for fixes and updates."
+      }
+    }
+  },
+  "resume": {
+    "summaryTitle": "Summary",
+    "summary": "Developer who turns slow, manual work into software that runs itself: browser and data automation in Python and TypeScript, bilingual web platforms, and Flutter apps that are live on Google Play. I own the whole path, from design to release and maintenance.",
+    "expTitle": "Experience",
+    "job1": {
+      "title": "Automation Developer, independent",
+      "meta": "Remote · 2021 – present",
+      "b1": "Built a large-scale distributed web-automation platform in TypeScript: one live dashboard driving agents on several machines, with checkpoints that resume runs at the exact step.",
+      "b2": "Built read-only appointment watchers with Playwright and phone alerts; one made 6,022 checks until the appointment was booked.",
+      "b3": "Built a local Python pipeline that turns a written script into a finished 1080p animated video with narration and lip-sync.",
+      "b4": "Built Excel and file-processing tools and desktop apps, and replaced slow browser flows with direct HTTP requests."
+    },
+    "job2": {
+      "title": "Full-stack web & mobile developer, independent",
+      "meta": "Remote · 2023 – present",
+      "b1": "Lu Lingo: a 9-language app for Arabic speakers with 53,057 words, subscriptions and cloud backup, live on Google Play.",
+      "b2": "House of Amría: a bilingual store for an Egyptian cotton brand, built on Laravel, then rebuilt on Next.js; delivered to the client.",
+      "b3": "Structure ERP (with Simon): a multi-tenant ERP across 12 business areas, in Arabic and English; in development.",
+      "b4": "StitchHub and a WhatsApp store bot: systems delivered to a workshop and a clothing shop, each with a dashboard.",
+      "b5": "Published and maintain four apps on Google Play, and shipped the Android 16 and Billing 8 upgrade on time for five apps (four public, one in closed testing)."
+    },
+    "download": "Download the CV",
+    "downloadText": "One page, PDF. The same content in each language.",
+    "more": "More"
+  },
+  "contact": {
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "type": "What do you need?",
+      "budget": "Budget (optional)",
+      "message": "Tell me about it",
+      "messagePlaceholder": "What is slow, manual or missing today? What would “done” look like?",
+      "send": "Send message",
+      "sending": "Sending…",
+      "noteEmail": "Opens your email app with the message ready to send.",
+      "noteForm": "Goes straight to my inbox. I reply by email."
+    },
+    "types": {
+      "automation": "Business automation",
+      "mobile": "Mobile app",
+      "web": "Website or online store",
+      "bots": "Chatbot or WhatsApp bot",
+      "other": "Something else"
+    },
+    "budgets": {
+      "unsure": "Not sure yet",
+      "b1": "Under USD 500",
+      "b2": "USD 500 – 2,000",
+      "b3": "USD 2,000 – 5,000",
+      "b4": "Over USD 5,000"
+    },
+    "errors": {
+      "name": "Please write your name.",
+      "email": "Please enter an email address I can reply to, like name@example.com.",
+      "message": "Tell me a bit more: at least 20 characters, so I can reply properly.",
+      "send": "The message could not be sent. Please try again, or write to me on WhatsApp or email."
+    },
+    "success": "Thanks! Your message reached me, and I'll reply by email.",
+    "openedMail": "Your email app should open with the message ready. If nothing happened, write to me on WhatsApp or at gogy.bairy@gmail.com.",
+    "mailSubject": "Project inquiry: {type}",
+    "direct": "Or reach me directly",
+    "egypt": "WhatsApp · Egypt",
+    "langs": "I reply in English, Portuguese or Arabic. São Paulo time (UTC−3).",
+    "brazil": "WhatsApp · Brazil",
+    "egyptNote": "messages only"
+  },
+  "privacy": {
+    "updated": "Last updated: November 14, 2026",
+    "short": {
+      "title": "The short version",
+      "p1": "This site has no ads, no analytics and no tracking cookies. I only receive what you choose to send me."
+    },
+    "device": {
+      "title": "Saved on your device",
+      "p1": "Your language and light or dark theme are saved in your browser (local storage) so the site remembers them. They never leave your device, and you can clear them in your browser settings."
+    },
+    "form": {
+      "title": "The contact form",
+      "p1": "When you send the form, your name, email, project type, budget and message are delivered to my email through Web3Forms, a form-delivery service. If the form is not available, your own email app sends the message instead.",
+      "p2": "I use these details only to reply to you. I don't sell or share them, and I delete conversations that don't lead anywhere."
+    },
+    "chat": {
+      "title": "The chat assistant",
+      "p1": "The chat bubble is an automated assistant, not me in person. Your messages go to my small server and to an AI language-model provider only to write the answer; that provider may keep them under its own privacy policy.",
+      "p2": "Conversations are not saved by me. Please don't share passwords, ID numbers or other sensitive data in the chat."
+    },
+    "third": {
+      "title": "Other services",
+      "p1": "Fonts are loaded from Google Fonts, so Google receives your IP address when the page loads. The site is hosted on GitHub Pages, which keeps standard server logs.",
+      "p2": "Links to Google Play, GitHub, LinkedIn and WhatsApp take you to those services, under their own privacy policies."
+    },
+    "rights": {
+      "title": "Questions or deletion",
+      "p1": "Write to gogy.bairy@gmail.com and I will tell you what I have about you, or delete it."
+    }
+  },
+  "chat": {
+    "open": "Ask me",
+    "title": "Girgis's assistant",
+    "subtitle": "Automated · answers in any language",
+    "hello": "Hi! I'm Girgis's automated assistant. Ask me about his work, services or projects, in any language. For prices and timing, Girgis replies personally on WhatsApp or email.",
+    "placeholder": "Type your question…",
+    "send": "Send",
+    "close": "Close chat",
+    "error": "I can't answer right now. Please write to Girgis on WhatsApp or email (buttons below).",
+    "limited": "That's a lot of questions in a short time. Please wait a few minutes, or write to Girgis on WhatsApp."
+  }
+}

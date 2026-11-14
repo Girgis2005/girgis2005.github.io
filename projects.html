@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects · Girgis Adel</title>
+<meta name="description" content="Apps on Google Play, websites for real clients and the automation tools I use myself.">
+<meta name="theme-color" content="#08090c">
+<link rel="canonical" href="https://girgis2005.github.io/projects.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Girgis Adel">
+<meta property="og:title" content="Projects · Girgis Adel">
+<meta property="og:description" content="Apps on Google Play, websites for real clients and the automation tools I use myself.">
+<!-- seo:start -->
+<meta property="og:url" content="https://girgis2005.github.io/projects.html">
+<meta property="og:image" content="https://girgis2005.github.io/assets/images/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Girgis Adel — websites, apps and automations">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ar_AR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+<!-- seo:end -->
+<link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+<script>/* pre-paint: theme + language before first frame (no flash) */(function(){try{var d=document.documentElement,q=new URLSearchParams(location.search).get('lang'),l=q||localStorage.getItem('lang'),t=localStorage.getItem('theme');if(t==='light')d.dataset.theme='light';if(l&&/^(pt|ar)/i.test(l)){d.classList.add('i18n-pending');if(/^ar/i.test(l)){d.lang='ar';d.dir='rtl'}else d.lang='pt-BR'}}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Cairo:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/layout.css">
+<link rel="stylesheet" href="/css/components.css">
+<link rel="stylesheet" href="/css/pages.css">
+<link rel="stylesheet" href="/css/animations.css">
+<script type="module" src="/js/main.js"></script>
+</head>
+<body data-page="projects" data-title="meta.projects.title" data-description="meta.projects.description">
+<a class="skip-link" href="#main" data-i18n="common.skip">Skip to content</a>
+<header id="site-header" class="nav"></header>
+
+<main id="main" tabindex="-1">
+  <section class="page-head">
+    <div class="container">
+      <h1 class="rise" style="--i:0" data-i18n="pages.projects.title">Projects</h1>
+      <p class="lead rise" style="--i:1" data-i18n="pages.projects.lead">Apps on Google Play, websites for real clients and the automation tools I use myself. Every status is honest.</p>
+    </div>
+  </section>
+  <section class="section section--first" aria-label="Project list" data-i18n-attr="aria-label:projects.listLabel">
+    <div class="container">
+      <div class="toolbar">
+        <div class="filters" role="group" aria-label="Filter by type" data-i18n-attr="aria-label:projects.filterLabel">
+          <button type="button" class="filter" data-filter="all" aria-pressed="true" data-i18n="projects.filters.all">All</button>
+          <button type="button" class="filter" data-filter="automation" aria-pressed="false" data-i18n="projects.filters.automation">Automation</button>
+          <button type="button" class="filter" data-filter="web" aria-pressed="false" data-i18n="projects.filters.web">Web</button>
+          <button type="button" class="filter" data-filter="mobile" aria-pressed="false" data-i18n="projects.filters.mobile">Mobile</button>
+          <button type="button" class="filter" data-filter="games" aria-pressed="false" data-i18n="projects.filters.games">Games</button>
+          <button type="button" class="filter" data-filter="tools" aria-pressed="false" data-i18n="projects.filters.tools">Tools</button>
+        </div>
+        <label class="search">
+          <span class="visually-hidden" data-i18n="projects.search">Search projects</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+          <input type="search" id="project-search" autocomplete="off" placeholder="Search by name or technology" data-i18n-attr="placeholder:projects.searchPlaceholder">
+        </label>
+      </div>
+      <h2 class="visually-hidden" data-i18n="projects.listLabel">Project list</h2>
+      <p class="count" id="project-count" aria-live="polite"></p>
+      <ul class="plist" data-projects="all"></ul>
+      <div class="empty" id="project-empty" hidden>
+        <p data-i18n="projects.empty">No project matches that search.</p>
+        <button type="button" class="btn btn--secondary btn--sm" id="project-reset" data-i18n="projects.reset">Show all projects</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer" class="foot"></footer>
+</body>
+</html>
