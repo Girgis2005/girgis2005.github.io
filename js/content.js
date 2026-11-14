@@ -20,7 +20,7 @@ function renderSkills(el) {
           <p>${esc(L(g.text))}</p>
           <p class="skill__proof"><span>${esc(t('skills.usedIn'))}</span> ${projectLinks(g.projects)}</p>
         </div>
-        <ul class="chips chips--lg">${g.items.map((it) => `<li class="chip">${esc(it)}</li>`).join('')}</ul>
+        <ul class="chips chips--lg">${g.items.map((it) => (typeof it === 'string' ? `<li class="chip">${esc(it)}</li>` : `<li class="chip chip--text">${esc(L(it))}</li>`)).join('')}</ul>
       </section>`).join('')}
     <section class="skill skill--langs" aria-labelledby="sk-langs">
       <div class="skill__head">

@@ -153,19 +153,19 @@ export const caseStudies = {
   'lu-flow': {
     en: {
       problem: 'I wanted a calm puzzle game that both kids and adults enjoy, with a character instead of plain dots.',
-      approach: 'A Flutter game with seven modes: classic endless levels, kids, letters and numbers, a 30-second speed run, perfect (one mistake ends it) and memory. Levels come from a deterministic generator, so a level number is always the same puzzle.',
+      approach: 'A Flutter game with seven modes, including classic endless levels, kids, letters and numbers, a 30-second speed run, perfect (one mistake ends it) and memory. Levels come from a deterministic generator, so a level number is always the same puzzle.',
       hard: 'Some phones showed a black screen on launch. The cause was a full disk: a defensive try/catch around storage turned a recoverable error into a crash, and an in-memory fallback fixed it. Later I moved the ads from one network to another without disrupting live players.',
       result: 'Live on Google Play and kept up to date with Android 16 (target SDK 36) and Billing 8.',
     },
     'pt-BR': {
       problem: 'Eu queria um jogo de quebra-cabeça tranquilo, que agradasse a crianças e adultos, com uma personagem em vez de simples pontos.',
-      approach: 'Um jogo em Flutter com sete modos: fases clássicas infinitas, infantil, letras e números, corrida de 30 segundos, perfeito (um erro encerra) e memória. As fases vêm de um gerador determinístico, então um número de fase é sempre o mesmo desafio.',
+      approach: 'Um jogo em Flutter com sete modos, entre eles fases clássicas infinitas, infantil, letras e números, corrida de 30 segundos, perfeito (um erro encerra) e memória. As fases vêm de um gerador determinístico, então um número de fase é sempre o mesmo desafio.',
       hard: 'Alguns celulares mostravam a tela preta ao abrir. A causa era o armazenamento cheio: um try/catch defensivo transformava um erro recuperável em travamento, e um modo de reserva em memória resolveu. Depois troquei a rede de anúncios sem atrapalhar quem já jogava.',
       result: 'No ar no Google Play e atualizado para o Android 16 (target SDK 36) e o Billing 8.',
     },
     ar: {
       problem: 'أردت لعبة ألغاز هادئة يستمتع بها الأطفال والكبار، بشخصية بدلًا من نقاط عادية.',
-      approach: 'لعبة Flutter فيها سبعة أنماط: المراحل الكلاسيكية بلا نهاية، والأطفال، والحروف والأرقام، وسباق 30 ثانية، والمثالي (خطأ واحد ينهي اللعب)، والذاكرة. والمراحل تأتي من مولّد حتمي، فرقم المرحلة يعطي دائمًا نفس اللغز.',
+      approach: 'لعبة Flutter فيها سبعة أنماط، منها المراحل الكلاسيكية بلا نهاية، والأطفال، والحروف والأرقام، وسباق 30 ثانية، والمثالي (خطأ واحد ينهي اللعب)، والذاكرة. والمراحل تأتي من مولّد حتمي، فرقم المرحلة يعطي دائمًا نفس اللغز.',
       hard: 'بعض الهواتف كانت تظهر شاشة سوداء عند الفتح. السبب كان امتلاء مساحة التخزين: جملة try/catch احتياطية حوّلت خطأً يمكن تجاوزه إلى توقف كامل، وحل المشكلة بديل مؤقت في الذاكرة. ولاحقًا نقلت الإعلانات من شبكة إلى أخرى دون أن يتأثر اللاعبون.',
       result: 'منشورة على Google Play ومحدّثة لأندرويد 16 (target SDK 36) و Billing 8.',
     },

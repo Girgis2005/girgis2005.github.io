@@ -31,7 +31,7 @@
     "skip": "Pular para o conteúdo",
     "available": "Disponível para novos projetos",
     "location": "São Paulo, Brasil · Remoto",
-    "email": "E-mail"
+    "email": "E‑mail"
   },
   "footer": {
     "tagline": "Sites, apps e automações que resolvem problemas reais, do desenvolvimento à publicação.",
@@ -69,7 +69,7 @@
     },
     "contact": {
       "title": "Contato · Girgis Adel",
-      "description": "Conte do que você precisa. Eu respondo pelo WhatsApp ou por e-mail."
+      "description": "Conte do que você precisa. Eu respondo pelo WhatsApp ou por e‑mail."
     },
     "privacy": {
       "title": "Privacidade · Girgis Adel",
@@ -167,9 +167,9 @@
   },
   "cta": {
     "title": "Ainda faz à mão algo que uma máquina poderia fazer por você?",
-    "text": "Me conte o que é. Escreva pelo WhatsApp ou por e-mail, em português, inglês ou árabe.",
+    "text": "Me conte o que é. Escreva pelo WhatsApp ou por e‑mail, em português, inglês ou árabe.",
     "whatsapp": "Falar no WhatsApp",
-    "email": "Enviar um e-mail"
+    "email": "Enviar um e‑mail"
   },
   "about": {
     "story": {
@@ -263,7 +263,7 @@
     },
     "contact": {
       "title": "Vamos conversar",
-      "lead": "Conte do que você precisa, e eu respondo pelo WhatsApp ou por e-mail."
+      "lead": "Conte do que você precisa, e eu respondo pelo WhatsApp ou por e‑mail."
     },
     "privacy": {
       "title": "Privacidade",
@@ -332,7 +332,7 @@
       "sub": "Simples e transparente, da primeira mensagem até depois do lançamento.",
       "p1": {
         "title": "Você me conta o problema",
-        "text": "Pelo WhatsApp, e-mail ou formulário de contato, em inglês, português ou árabe. Uma descrição curta já basta para começar."
+        "text": "Pelo WhatsApp, e‑mail ou formulário de contato, em inglês, português ou árabe. Uma descrição curta já basta para começar."
       },
       "p2": {
         "title": "Eu proponho um plano",
@@ -376,15 +376,15 @@
   "contact": {
     "form": {
       "name": "Seu nome",
-      "email": "Seu e-mail",
+      "email": "Seu e‑mail",
       "type": "Do que você precisa?",
       "budget": "Orçamento (opcional)",
       "message": "Conte sobre o projeto",
       "messagePlaceholder": "O que está lento, manual ou faltando hoje? Como seria o resultado ideal?",
       "send": "Enviar mensagem",
       "sending": "Enviando…",
-      "noteEmail": "Abre seu app de e-mail com a mensagem pronta para enviar.",
-      "noteForm": "Vai direto para a minha caixa de entrada. Eu respondo por e-mail."
+      "noteEmail": "Abre seu app de e‑mail com a mensagem pronta para enviar.",
+      "noteForm": "Vai direto para a minha caixa de entrada. Eu respondo por e‑mail."
     },
     "types": {
       "automation": "Automação de processos",
@@ -402,12 +402,12 @@
     },
     "errors": {
       "name": "Por favor, informe seu nome.",
-      "email": "Informe um e-mail para eu responder, como nome@exemplo.com.",
+      "email": "Informe um e‑mail para eu responder, como nome@exemplo.com.",
       "message": "Conte um pouco mais: pelo menos 20 caracteres, para eu responder direito.",
-      "send": "Não foi possível enviar a mensagem. Tente de novo, ou fale comigo pelo WhatsApp ou por e-mail."
+      "send": "Não foi possível enviar a mensagem. Tente de novo, ou fale comigo pelo WhatsApp ou por e‑mail."
     },
-    "success": "Obrigado! Recebi sua mensagem e vou responder por e-mail.",
-    "openedMail": "Seu app de e-mail deve abrir com a mensagem pronta. Se nada aconteceu, fale comigo pelo WhatsApp ou em gogy.bairy@gmail.com.",
+    "success": "Obrigado! Recebi sua mensagem e vou responder por e‑mail.",
+    "openedMail": "Seu app de e‑mail deve abrir com a mensagem pronta. Se nada aconteceu, fale comigo pelo WhatsApp ou em gogy.bairy@gmail.com.",
     "mailSubject": "Contato sobre projeto: {type}",
     "direct": "Ou fale comigo diretamente",
     "egypt": "WhatsApp · Egito",
@@ -427,7 +427,7 @@
     },
     "form": {
       "title": "O formulário de contato",
-      "p1": "Quando você envia o formulário, seu nome, e-mail, tipo de projeto, orçamento e mensagem chegam ao meu e-mail pelo Web3Forms, um serviço de entrega de formulários. Se o formulário não estiver disponível, o seu próprio app de e-mail envia a mensagem.",
+      "p1": "Quando você envia o formulário, seu nome, e‑mail, tipo de projeto, orçamento e mensagem chegam ao meu e‑mail pelo Web3Forms, um serviço de entrega de formulários. Se o formulário não estiver disponível, o seu próprio app de e‑mail envia a mensagem.",
       "p2": "Uso esses dados apenas para responder a você. Não vendo nem compartilho esses dados, e apago conversas que não seguem adiante."
     },
     "chat": {
@@ -449,11 +449,11 @@
     "open": "Pergunte",
     "title": "Assistente do Girgis",
     "subtitle": "Automático · responde em qualquer idioma",
-    "hello": "Oi! Sou o assistente automático do Girgis. Pergunte sobre o trabalho, os serviços ou os projetos dele, em qualquer idioma. Preços e prazos o Girgis responde pessoalmente pelo WhatsApp ou e-mail.",
+    "hello": "Oi! Sou o assistente automático do Girgis. Pergunte sobre o trabalho, os serviços ou os projetos dele, em qualquer idioma. Preços e prazos o Girgis responde pessoalmente pelo WhatsApp ou e‑mail.",
     "placeholder": "Escreva sua pergunta…",
     "send": "Enviar",
     "close": "Fechar o chat",
-    "error": "Não consigo responder agora. Fale com o Girgis pelo WhatsApp ou e-mail (botões abaixo).",
+    "error": "Não consigo responder agora. Fale com o Girgis pelo WhatsApp ou e‑mail (botões abaixo).",
     "limited": "Muitas perguntas em pouco tempo. Aguarde alguns minutos, ou fale com o Girgis pelo WhatsApp."
   }
 }

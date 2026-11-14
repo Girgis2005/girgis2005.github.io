@@ -4,6 +4,7 @@
    ========================================================================== */
 
 *, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; } /* `hidden` always wins over a component's display rule */
 
 html {
   -webkit-text-size-adjust: 100%;

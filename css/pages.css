@@ -328,6 +328,7 @@
   .facts-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .facts-row > div, .facts-row > div:first-child { border-inline-start: 0; padding-inline: 0 var(--s-3); border-block-start: 1px solid var(--line); }
   .facts-row > div:nth-child(-n + 2) { border-block-start: 0; }
+  .facts-row > div:last-child:nth-child(odd) { grid-column: 1 / -1; } /* an odd last stat takes the full row */
 }
 
 /* ---------- Skills ---------- */

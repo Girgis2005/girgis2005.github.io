@@ -28,7 +28,7 @@ export const projects = [
     thumb: '/assets/projects/lu-lingo/icon.webp',
     stack: ['Flutter', 'Dart', 'SQLite', 'Firebase', 'Cloud Functions', 'Play Billing'],
     links: { play: PLAY('com.englishvocab.english_vocab_master'), live: 'https://girgis2005.github.io/lu-lingo/' },
-    title: { en: 'Lu Lingo', 'pt-BR': 'Lu Lingo', ar: 'Lu Lingo' },
+    title: { en: 'Lu Lingo', 'pt-BR': 'Lu Lingo', ar: 'Lu Lingo' },
     summary: {
       en: 'A language app for Arabic speakers: 9 languages and 53,057 words, each explained in Arabic. Works offline, with subscriptions and cloud backup.',
       'pt-BR': 'App de idiomas para falantes de árabe: 9 idiomas e 53.057 palavras, cada uma explicada em árabe. Funciona offline, com assinaturas e backup na nuvem.',
@@ -147,7 +147,7 @@ export const projects = [
     stack: ['Laravel', 'Livewire', 'Bootstrap 5', 'Multi-tenancy', 'RBAC', 'Arabic RTL'],
     links: { github: GH('structure-erp') },
     credit: { en: 'Built together with Simon.', 'pt-BR': 'Desenvolvido junto com Simon.', ar: 'بنيته بالمشاركة مع سيمون.' },
-    title: { en: 'Structure ERP', 'pt-BR': 'Structure ERP', ar: 'Structure ERP' },
+    title: { en: 'Structure ERP', 'pt-BR': 'Structure ERP', ar: 'Structure ERP' },
     summary: {
       en: 'A multi-tenant ERP for small and mid-size companies: HR and payroll, finance, CRM, inventory, procurement, manufacturing, fleet and more, in Arabic and English.',
       'pt-BR': 'ERP multiempresa para pequenas e médias empresas: RH e folha de pagamento, finanças, CRM, estoque, compras, produção, frota e mais, em árabe e inglês.',
@@ -168,7 +168,7 @@ export const projects = [
     thumb: '/assets/projects/lu-flow/icon.webp',
     stack: ['Flutter', 'Dart', 'Unity Ads', 'In-app purchases'],
     links: { play: PLAY('com.luflow.app') },
-    title: { en: 'Lu Flow', 'pt-BR': 'Lu Flow', ar: 'Lu Flow' },
+    title: { en: 'Lu Flow', 'pt-BR': 'Lu Flow', ar: 'Lu Flow' },
     tagline: { en: 'Connect-the-dots puzzle game', 'pt-BR': 'Jogo de ligar os pontos', ar: 'لعبة ألغاز توصيل النقاط' },
     summary: {
       en: 'A connect-the-dots puzzle game starring Lu, a water drop, with 7 modes from relaxed to speed runs.',
@@ -186,7 +186,7 @@ export const projects = [
     thumb: '/assets/projects/lu-peek/icon.webp',
     stack: ['Flutter', 'Dart', 'Unity Ads'],
     links: { play: PLAY('com.lupeek.app'), github: GH('lu-peek') },
-    title: { en: 'Lu Peek', 'pt-BR': 'Lu Peek', ar: 'Lu Peek' },
+    title: { en: 'Lu Peek', 'pt-BR': 'Lu Peek', ar: 'Lu Peek' },
     tagline: { en: 'Letters, numbers and shapes for kids', 'pt-BR': 'Letras, números e formas para crianças', ar: 'حروف وأرقام وأشكال للأطفال' },
     summary: {
       en: 'A learning game for children aged 3 to 8: letters and words, numbers and counting, shapes and pictures, through matching, listening and sorting games.',
@@ -207,7 +207,7 @@ export const projects = [
     thumb: '/assets/projects/lu-aqua/icon.webp',
     stack: ['Flutter', 'Dart', 'Kotlin', 'SQLite', 'Home-screen widgets'],
     links: { play: PLAY('com.smartsip.smartsip'), live: 'https://girgis2005.github.io/smartsip-web/' },
-    title: { en: 'Lu Aqua', 'pt-BR': 'Lu Aqua', ar: 'Lu Aqua' },
+    title: { en: 'Lu Aqua', 'pt-BR': 'Lu Aqua', ar: 'Lu Aqua' },
     tagline: { en: 'Water reminders that actually ring', 'pt-BR': 'Lembretes para beber água que tocam de verdade', ar: 'تذكير بشرب الماء يرنّ فعلًا' },
     summary: {
       en: 'An offline water tracker with reminders that respect sleep and Ramadan hours, charts, streaks and home-screen widgets.',
@@ -228,7 +228,7 @@ export const projects = [
     thumb: '/assets/projects/lu-prism/icon.webp',
     stack: ['Flutter', 'Dart', 'Local notifications'],
     links: { github: GH('lu-prism'), live: 'https://girgis2005.github.io/lu-prism-web/' },
-    title: { en: 'Lu Prism', 'pt-BR': 'Lu Prism', ar: 'Lu Prism' },
+    title: { en: 'Lu Prism', 'pt-BR': 'Lu Prism', ar: 'Lu Prism' },
     summary: {
       en: 'A colour-and-numbers logic puzzle where every colour hides a number, with a daily puzzle and three game modes.',
       'pt-BR': 'Quebra-cabeça de lógica em que cada cor esconde um número, com desafio diário e três modos de jogo.',
@@ -247,7 +247,7 @@ export const projects = [
     thumb: { tile: 'violet', icon: 'scan' },
     stack: ['Flutter', 'Kotlin', 'MediaProjection', 'On-device OCR', 'Speech-to-text API', 'LLM translation APIs'],
     links: {},
-    title: { en: 'Lu Lens', 'pt-BR': 'Lu Lens', ar: 'Lu Lens' },
+    title: { en: 'Lu Lens', 'pt-BR': 'Lu Lens', ar: 'Lu Lens' },
     summary: {
       en: 'An Android screen translator: a floating bubble translates whatever is on screen, and live captions translate audio from any app.',
       'pt-BR': 'Tradutor de tela para Android: uma bolha flutuante traduz o que estiver na tela, e legendas ao vivo traduzem o áudio de qualquer app.',
@@ -257,7 +257,7 @@ export const projects = [
     galleryNote: {
       en: 'The first two screenshots: a Google Play page in English, then the same screen translated into Arabic by the bubble.',
       'pt-BR': 'As duas primeiras capturas: uma página do Google Play em inglês e, depois, a mesma tela traduzida para o árabe pela bolha.',
-      ar: 'أول صورتين: صفحة على Google Play بالإنجليزية، ثم نفس الشاشة بعد أن ترجمتها الفقاعة إلى العربية.',
+      ar: 'أول صورتين: صفحة على Google Play بالإنجليزية، ثم نفس الشاشة بعد أن ترجمتها الفقاعة إلى العربية.',
     },
     gallery: shots('lu-lens', ['01', '02', '03', '04', '05', '06'], 'phone'),
   },

@@ -28,12 +28,12 @@ export const services = [
     what: {
       en: 'I take an Android app from idea to a published Google Play listing: design, build, store listing, release, and the updates and policy changes that come after launch.',
       'pt-BR': 'Levo seu app Android da ideia até a publicação no Google Play: design, desenvolvimento, página da loja, lançamento e as atualizações e mudanças de política que vêm depois.',
-      ar: 'أتولى تطبيق أندرويد من الفكرة حتى نشره على Google Play: التصميم، والبناء، وصفحة المتجر، والإطلاق، والتحديثات وتغييرات السياسات التي تأتي بعد ذلك.',
+      ar: 'أتولى تطبيق أندرويد من الفكرة حتى نشره على Google Play: التصميم، والبناء، وصفحة المتجر، والإطلاق، والتحديثات وتغييرات السياسات التي تأتي بعد ذلك.',
     },
     who: {
       en: 'Founders, shops and brands who want a real app on Google Play, built and maintained by one person who owns the whole lifecycle.',
       'pt-BR': 'Empreendedores, lojas e marcas que querem um app de verdade no Google Play, feito e mantido por uma pessoa que cuida do ciclo inteiro.',
-      ar: 'أصحاب المشاريع والمحلات والعلامات التجارية الذين يريدون تطبيقًا حقيقيًا على Google Play، يبنيه ويصونه شخص واحد يتولى دورة حياته كاملة.',
+      ar: 'أصحاب المشاريع والمحلات والعلامات التجارية الذين يريدون تطبيقًا حقيقيًا على Google Play، يبنيه ويصونه شخص واحد يتولى دورة حياته كاملة.',
     },
     get: {
       en: ['A Flutter app published on Google Play', 'Store listing, screenshots and data-safety form', 'Offline storage, notifications or subscriptions where needed', 'Updates after launch'],

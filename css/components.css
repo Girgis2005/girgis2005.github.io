@@ -169,6 +169,9 @@
   border-radius: var(--r-sm); border: 1px solid var(--line); background: var(--bg-raised);
   font: 500 12px/1 var(--font-mono); color: var(--text-2);
 }
+/* translated (descriptive) chips: the page's text font, so Arabic letters join properly */
+.chip--text { font-family: var(--font-sans); letter-spacing: normal; }
+.chips--lg .chip--text { font-size: 14px; }
 
 /* ---------- Project list row ---------- */
 .plist { list-style: none; margin: 0; padding: 0; border-block-start: 1px solid var(--line); }
