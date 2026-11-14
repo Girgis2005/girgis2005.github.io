@@ -14,7 +14,11 @@
     "privacy": "Privacidade",
     "cta": "Vamos conversar",
     "language": "Idioma",
-    "theme": "Tema claro",
+    "theme": "Tema",
+    "themeAuto": "Automático",
+    "themeLight": "Claro",
+    "themeDark": "Escuro",
+    "themeAutoHint": "Segue o seu horário local",
     "menu": "Menu"
   },
   "common": {
@@ -346,7 +350,7 @@
       "title": "Desenvolvedor de automação, freelancer",
       "meta": "Remoto · 2021 – atual",
       "b1": "Criei uma plataforma distribuída de automação web em grande escala, em TypeScript: um painel ao vivo controlando agentes em várias máquinas, com pontos de controle que retomam a execução exatamente de onde parou.",
-      "b2": "Criei monitores de agendamento somente leitura com Playwright e alertas no celular; o do consulado fez 6.022 verificações até o agendamento ser feito.",
+      "b2": "Criei monitores de agendamento somente leitura com Playwright e alertas no celular; o do consulado fez 6.022 verificações, e quatro agendamentos foram feitos.",
       "b3": "Criei um pipeline local em Python que transforma um roteiro escrito em um vídeo animado 1080p com narração e sincronia labial.",
       "b4": "Criei ferramentas de Excel e de processamento de arquivos e apps de desktop, e troquei fluxos lentos no navegador por requisições HTTP diretas."
     },

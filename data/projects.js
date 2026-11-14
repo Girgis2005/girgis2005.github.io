@@ -90,14 +90,14 @@ export const projects = [
     links: {},
     title: { en: 'Appointment watcher', 'pt-BR': 'Monitor de agendamentos', ar: 'مراقب المواعيد' },
     summary: {
-      en: 'Watched consulate and immigration booking calendars around the clock and alerted my phone the moment a slot opened. One watcher made 6,022 checks before the appointment was booked.',
-      'pt-BR': 'Monitorou calendários de agendamento do consulado e da imigração 24 horas por dia e avisou meu celular assim que surgia uma vaga. Um dos monitores fez 6.022 verificações até o agendamento ser feito.',
-      ar: 'راقب تقاويم حجز المواعيد في القنصلية والهجرة على مدار الساعة، ونبّه هاتفي لحظة ظهور موعد متاح. وأجرى أحد المراقبين 6,022 فحصًا حتى تم الحجز.',
+      en: 'Watched consulate and immigration booking calendars around the clock and alerted my phone the moment a slot opened. One watcher alone made 6,022 checks, and four appointments were booked.',
+      'pt-BR': 'Monitorou calendários de agendamento do consulado e da imigração 24 horas por dia e avisou meu celular assim que surgia uma vaga. Só um dos monitores fez 6.022 verificações, e quatro agendamentos foram feitos.',
+      ar: 'راقب تقاويم حجز المواعيد في القنصلية والهجرة على مدار الساعة، ونبّه هاتفي لحظة ظهور موعد متاح. وأجرى أحد المراقبين وحده 6,022 فحصًا، وتم حجز أربعة مواعيد.',
     },
     facts: [
       { value: '6,022', label: { en: 'checks', 'pt-BR': 'verificações', ar: 'فحصًا' } },
       { value: '< 5 min', label: { en: 'how long some slots lasted', 'pt-BR': 'duração de algumas vagas', ar: 'مدة بقاء بعض المواعيد' } },
-      { value: '1', label: { en: 'appointment booked', 'pt-BR': 'agendamento feito', ar: 'موعد تم حجزه' } },
+      { value: '4', label: { en: 'appointments booked', 'pt-BR': 'agendamentos feitos', ar: 'مواعيد تم حجزها' } },
     ],
     gallery: [],
   },

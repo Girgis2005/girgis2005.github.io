@@ -14,7 +14,11 @@
     "privacy": "Privacy",
     "cta": "Let's talk",
     "language": "Language",
-    "theme": "Light theme",
+    "theme": "Theme",
+    "themeAuto": "Auto",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAutoHint": "Follows your local time",
     "menu": "Menu"
   },
   "common": {
@@ -346,7 +350,7 @@
       "title": "Automation Developer, independent",
       "meta": "Remote · 2021 – present",
       "b1": "Built a large-scale distributed web-automation platform in TypeScript: one live dashboard driving agents on several machines, with checkpoints that resume runs at the exact step.",
-      "b2": "Built read-only appointment watchers with Playwright and phone alerts; one made 6,022 checks until the appointment was booked.",
+      "b2": "Built read-only appointment watchers with Playwright and phone alerts; one alone made 6,022 checks, and four appointments were booked.",
       "b3": "Built a local Python pipeline that turns a written script into a finished 1080p animated video with narration and lip-sync.",
       "b4": "Built Excel and file-processing tools and desktop apps, and replaced slow browser flows with direct HTTP requests."
     },

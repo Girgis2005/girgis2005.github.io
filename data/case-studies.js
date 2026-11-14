@@ -71,19 +71,19 @@ export const caseStudies = {
       problem: 'Appointment slots on government booking portals (a consulate in Cairo before my move, then immigration in Brazil) appeared at random and disappeared within minutes. Checking by hand, day and night, was not possible.',
       approach: 'Read-only watchers drive a real browser with Playwright, check the calendar on a schedule and fire a high-priority phone alarm the moment a better date appears, with a quieter channel for routine updates. A person always does the booking: the tool never solves CAPTCHAs.',
       hard: "The calendars fought back. On the immigration portal an invisible overlay ate every click, the back arrow never disabled, padding cells looked like free days and sessions died on refresh, so the watcher reads the portal's own data to know which month it is on. The consulate session expired every eight hours, so that watcher logs back in through the browser's password manager; no credentials live in the scripts.",
-      result: 'The consulate watcher made 6,022 checks in about three weeks; some slots lasted under five minutes. The appointment was booked. No screenshots are shown because the pages contain personal data.',
+      result: 'The consulate watcher made 6,022 checks in about three weeks; some slots lasted under five minutes. Four appointments were booked. No screenshots are shown because the pages contain personal data.',
     },
     'pt-BR': {
       problem: 'As vagas em portais de agendamento do governo (um consulado no Cairo antes da mudança, depois a imigração no Brasil) apareciam aleatoriamente e sumiam em minutos. Conferir na mão, dia e noite, não era possível.',
       approach: 'Monitores somente leitura controlam um navegador de verdade com Playwright, conferem o calendário em intervalos e disparam um alarme de alta prioridade no celular assim que surge uma data melhor, com um canal mais discreto para avisos de rotina. Quem agenda é sempre uma pessoa: a ferramenta nunca resolve CAPTCHAs.',
       hard: 'Os calendários resistiam. No portal da imigração, uma camada invisível engolia todos os cliques, a seta de voltar nunca ficava desativada, células de preenchimento pareciam dias livres e a sessão caía ao recarregar; por isso o monitor lê os próprios dados do portal para saber em que mês está. A sessão do consulado expirava a cada oito horas, então esse monitor faz login de novo pelo gerenciador de senhas do navegador, sem nenhuma credencial nos scripts.',
-      result: 'O monitor do consulado fez 6.022 verificações em cerca de três semanas; algumas vagas duraram menos de cinco minutos. O agendamento foi feito. Não há capturas porque as páginas têm dados pessoais.',
+      result: 'O monitor do consulado fez 6.022 verificações em cerca de três semanas; algumas vagas duraram menos de cinco minutos. Quatro agendamentos foram feitos. Não há capturas porque as páginas têm dados pessoais.',
     },
     ar: {
       problem: 'المواعيد على بوابات حجز حكومية (قنصلية في القاهرة قبل انتقالي، ثم الهجرة في البرازيل) كانت تظهر بشكل عشوائي وتختفي خلال دقائق، ومتابعتها يدويًا ليلًا ونهارًا لم تكن ممكنة.',
       approach: 'مراقبات للقراءة فقط تشغّل متصفحًا حقيقيًا عبر Playwright، وتفحص التقويم على فترات، وتطلق تنبيهًا عالي الأولوية على الهاتف لحظة ظهور موعد أفضل، مع قناة أهدأ للتحديثات العادية. والحجز يقوم به إنسان دائمًا: الأداة لا تحل اختبارات CAPTCHA أبدًا.',
       hard: 'التقاويم كانت تقاوم. في بوابة الهجرة كانت طبقة غير مرئية تبتلع كل نقرة، وسهم الرجوع لا يتعطل أبدًا، وخانات فارغة تبدو كأيام متاحة، والجلسة تنتهي عند التحديث، لذلك يقرأ المراقب بيانات البوابة نفسها ليعرف الشهر الذي يقف عليه. أما جلسة القنصلية فكانت تنتهي كل ثماني ساعات، فيعيد ذلك المراقب تسجيل الدخول عبر مدير كلمات المرور في المتصفح، ولا توجد أي بيانات دخول داخل السكربتات.',
-      result: 'أجرى مراقب القنصلية 6,022 فحصًا في نحو ثلاثة أسابيع، وبعض المواعيد لم يبقَ أكثر من خمس دقائق. وتم الحجز. ولا توجد صور لأن الصفحات تحتوي على بيانات شخصية.',
+      result: 'أجرى مراقب القنصلية 6,022 فحصًا في نحو ثلاثة أسابيع، وبعض المواعيد لم يبقَ أكثر من خمس دقائق. وتم حجز أربعة مواعيد. ولا توجد صور لأن الصفحات تحتوي على بيانات شخصية.',
     },
   },
 

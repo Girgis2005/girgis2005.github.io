@@ -27,9 +27,17 @@ export function renderHeader() {
           <button type="button" data-lang-btn="pt-BR" lang="pt-BR" aria-label="PT, Português do Brasil" aria-pressed="false">PT</button>
           <button type="button" data-lang-btn="ar" lang="ar" aria-label="ع، العربية" aria-pressed="false">ع</button>
         </div>
-        <button class="icon-btn" type="button" data-theme-btn aria-pressed="false" data-i18n-attr="aria-label:nav.theme" aria-label="Light theme">
-          ${icon('sun', 'i-sun')}${icon('moon', 'i-moon')}
-        </button>
+        <div class="theme-pick">
+          <button class="icon-btn" type="button" data-theme-btn aria-expanded="false" aria-controls="theme-menu" data-i18n-attr="aria-label:nav.theme" aria-label="Theme">
+            ${icon('sun', 'i-sun')}${icon('moon', 'i-moon')}${icon('auto', 'i-auto')}
+          </button>
+          <div class="theme-menu" id="theme-menu" role="group" data-i18n-attr="aria-label:nav.theme" aria-label="Theme" hidden>
+            ${[['auto', 'auto', 'Auto'], ['light', 'sun', 'Light'], ['dark', 'moon', 'Dark']].map(([m, ic, en]) => `
+            <button type="button" data-theme-set="${m}" aria-pressed="false">
+              ${icon(ic)}<span><span data-i18n="nav.theme${en}">${en}</span>${m === 'auto' ? '<small data-i18n="nav.themeAutoHint">Follows your local time</small>' : ''}</span>
+            </button>`).join('')}
+          </div>
+        </div>
         <a class="btn btn--primary btn--sm nav__cta" href="/contact.html" data-i18n="nav.cta">Let's talk</a>
         <button class="icon-btn nav__menu-btn" type="button" aria-expanded="false" aria-controls="site-menu" data-i18n-attr="aria-label:nav.menu" aria-label="Menu">
           ${icon('menu', 'i-menu')}${icon('close', 'i-close')}
