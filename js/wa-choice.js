@@ -1,4 +1,4 @@
-// WhatsApp app choice (Android only).
+// WhatsApp links: a ready-made first message (all devices) + app choice (Android only).
 // A plain wa.me link lets Android open whichever WhatsApp app it picked before, without asking, so a visitor who
 // has both WhatsApp and WhatsApp Business cannot choose. On Android, a tap on any wa.me link opens a small sheet
 // with both apps; each targets its own package and falls back to wa.me if that app is not installed.
@@ -37,7 +37,21 @@ function sheet(phone, text) {
   dlg.showModal();
 }
 
+/** Every wa.me link opens with a ready message in the visitor's language, so the chat starts with context
+ *  and it is clear the person came from the site. Added at click time, so it always matches the current language. */
+function prefill(e) {
+  const a = e.target.closest('a[href^="https://wa.me/"]');
+  if (!a) return;
+  const url = new URL(a.href);
+  const text = t('wa.prefill');
+  if (text === 'wa.prefill') return;
+  url.searchParams.set('text', text);
+  a.href = url.toString();
+}
+
 export function init() {
+  document.addEventListener('click', prefill, true); // capture: runs before navigation and before the Android sheet
+  document.addEventListener('auxclick', prefill, true); // middle-click / new tab
   if (!/Android/i.test(navigator.userAgent)) return;
   document.addEventListener('click', (e) => {
     const a = e.target.closest('a[href^="https://wa.me/"]');
