@@ -1,4 +1,5 @@
 {
+  "langName": { "en": "inglês", "pt-BR": "português", "ar": "árabe" },
   "pick": {
     "label": "Como você prefere falar comigo?",
     "wa": "WhatsApp",
@@ -139,6 +140,11 @@
         "text": "Bots que respondem seus clientes, mostram seu catálogo e recebem pedidos, com um painel para você manter o controle.",
         "proof": "Bot de loja no WhatsApp"
       }
+    },
+    "voices": {
+      "title": "O que dizem os clientes",
+      "sub": "Nas palavras deles, sobre trabalhos que entreguei.",
+      "translated": "Traduzido do {lang}"
     },
     "story": {
       "title": "Sempre começa com um problema real",
@@ -429,7 +435,7 @@
     "updated": "Última atualização: 14 de novembro de 2026",
     "short": {
       "title": "Resumindo",
-      "p1": "Este site não tem anúncios, nem ferramentas de análise, nem cookies de rastreamento. Eu só recebo o que você decidir me enviar."
+      "p1": "Este site não tem anúncios nem cookies de rastreamento. Só conto as visitas com o Cloudflare Web Analytics, que não usa cookies e não identifica você: vejo quantas pessoas visitaram cada página e de qual país, nunca quem você é. Fora isso, só recebo o que você decidir me enviar."
     },
     "device": {
       "title": "Salvo no seu aparelho",

@@ -2,6 +2,7 @@
   "site": {
     "name": "Girgis Adel"
   },
+  "langName": { "en": "English", "pt-BR": "Portuguese", "ar": "Arabic" },
   "pick": {
     "label": "How would you like to reach me?",
     "wa": "WhatsApp",
@@ -139,6 +140,11 @@
         "text": "Bots that answer your customers, show your catalog and take orders, with a dashboard so you stay in control.",
         "proof": "WhatsApp store bot"
       }
+    },
+    "voices": {
+      "title": "What clients say",
+      "sub": "In their own words, about work I delivered.",
+      "translated": "Translated from {lang}"
     },
     "story": {
       "title": "It always starts with a real problem",
@@ -429,7 +435,7 @@
     "updated": "Last updated: November 14, 2026",
     "short": {
       "title": "The short version",
-      "p1": "This site has no ads, no analytics and no tracking cookies. I only receive what you choose to send me."
+      "p1": "This site has no ads and no tracking cookies. I only count visits with Cloudflare Web Analytics, which is cookie-free and does not identify you: I see how many people visited which page and from which country, never who you are. Everything else I receive is what you choose to send me."
     },
     "device": {
       "title": "Saved on your device",
